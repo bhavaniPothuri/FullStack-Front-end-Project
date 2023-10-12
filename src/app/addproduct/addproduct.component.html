@@ -1,0 +1,38 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row-d-flex justify-content-center">
+        <div class="col-md-4">
+            <h1>Add New Product</h1>
+        </div>
+        <div class="row">
+            
+                <div class="col-md-8 form">
+                    <div class="form-group">
+                        <label form="" class="form-label">productId</label>
+                        <input type="text" class="form-control" name="pid" [(ngModel)]="pid">
+                    </div>
+                    <div class="form-group">
+                        <label form="" class="form-label">productName</label>
+                        <input type="text" class="form-control" name="pname" [(ngModel)]="pname">
+                    </div>
+                    <div class="form-group">
+                        <label form="" class="form-label">productPrice</label>
+                        <input type="text" class="form-control" name="pid" [(ngModel)]="pprice">
+                    </div>
+                    <div class="form-group">
+                        <label form="" class="form-label">productFeatures</label>
+                        <input type="text" class="form-control" name="pid" [(ngModel)]="pfeatures">
+                    </div>
+                    <div class="form-group">
+                        <label form="" class="form-label">productImage</label>
+                        <input type="text" class="form-control" name="pid" [(ngModel)]="pimg">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-success"(click)="adding()">Upload</button>
+                        <button class="btn btn-danger">cancel</button>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</div>
